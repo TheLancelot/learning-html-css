@@ -1,0 +1,166 @@
+/* body{
+    color: rgb(16, 64, 178);
+}
+
+h2{
+    color: gray;
+}
+
+#lib-header{
+    color: black;
+}
+
+.para{
+    color:palevioletred;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary-color: #be123c;
+    --darkgray-color: #57534e;
+    --lightgray: #f3f4f6;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* body{
+    font-family: 'Helvetica';
+     color: #000000;
+    font-size: 9pt;
+    background-color: #FAFAFA; 
+}  */
+
+/* Container*/
+hr {
+    margin: 1.5rem 0rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* top right bottom left */
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+/** list **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-right-radius: 1rem ;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+}
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* overwriting- inside navigation, inside link class */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 0.5rem;
+    color: var(--darkgray-color);
+    text-align: center;
+}
+
+.hero .hero-heading .subset{
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 1.5rem;
+    
+}
+
+/** any heading inside section class*/
+.section h1{
+    text-align: center;
+    font-size: x-large;
+}
+
+.section-ow{
+    background-color: var(--lightgray);
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 01rem;
+}
+
+.footer .link{
+    color: white;
+}
+.footer .footer-header{
+    font-size: larger;
+}
+
+.footer .social-links{
+    text-align: center;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}

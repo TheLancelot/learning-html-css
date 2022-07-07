@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+
+    <!-- CSS way 1: Style Tag
+         <style>
+        body{
+            color: red;
+        }
+    </style> -->
+
+    <!-- CSS way 3: External Link  -->
+    <link href="/styles.css" rel='stylesheet' />
+</head>
+
+<body>
+
+    <!-- CSS way 2: style attribute -->
+    <!-- <h1 style="color:aqua">My component library</h1> -->
+    <!-- <h1 id="lib-header">My component library</h1> -->
+    <h1>My component library</h1>
+
+    <!-- <p class="para"> This is my portfolio website</p> -->
+    <p> This is my <strong>portfolio</strong> website</p>
+
+    <hr> <!-- used as line break, we see a visual line -->
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading </h1>
+    <h2>Second biggest</h2>
+    <p>Normal text,free flowings, wraps at end</p>
+    <small>relatively smaller text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <!-- there can be multiple classes -->
+    <div class='container '>Fluid container, will go to end of page</div>
+
+    <h3>Center Container(done using css)</h3>
+    <div class="container
+    container-center">Centered div and it will go till specific height and width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href="https://nksir-first.netlify.app">Portfolio Website</a>
+    <a class='link link-secondary' href="/">Secondary Link</a>
+
+    <!-- <br>
+    <br> -->
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>Unordered List</h3>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>Unordered Inline List(done using CSS)</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3>Reverse ordered List</h3>
+    <ol reversed>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Bread</li>
+    </ol>
+
+    <hr>
+    <!-- Inline elemnts take only unka required space,doesnt start on new line, only takes the necessary width (small,img,strong)
+     Block elemtstake entire block/Row,always starts on new line(ul,li,p,h,div) 
+    Inline elemtent cannot contain block level element-->
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">placeholder</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline"> <a class="link" href="/">Home</a></li>
+            <li class="list-item-inline"> <a class="link" href="/">Resume</a></li>
+            <li class="list-item-inline"> <a class="link" href="/">Projects</a></li>
+            <li class="list-item-inline"> <a class="link" href="/">About</a></li>
+        </ul>
+
+    </nav>
+
+    <hr>
+
+    <h2>@Header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="/images/Hero1.svg" />
+        <h1 class="hero-heading">Nishad Khade <br> <span class='subset'>Data Scientist </span>and</span> <span
+                class="subset">Web Developer</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+
+        <div class="container container-center">
+            <h1>hi hello</h1>
+
+            <p>This will have white background</p>
+        </div>
+
+    </section>
+
+    <section class="section section-ow" s>
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray background</p>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">My Socials</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">GitHub</a></li>
+            <li class="list-item-inline"><a class="link " href="/">Instagram</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Twitter</a></li>
+        </ul>
+    </footer>
+
+
+
+    <hr>
+
+    <div>
+        hi hieelo
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
